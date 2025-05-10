@@ -1,0 +1,41 @@
+/* General card styling */
+.deals-section {
+    margin-bottom: 3rem;
+  }
+.product-card {
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card image styling */
+  .card-img-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .product-img-top {
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+  }
+  
+  /* Add-to-cart button - hidden by default */
+  .add-to-cart-btn {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  /* Show button on hover */
+  .product-card:hover .add-to-cart-btn {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
