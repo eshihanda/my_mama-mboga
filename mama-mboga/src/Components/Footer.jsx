@@ -30,7 +30,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='col-md-3 mb-4'>
-                    <h5 className='text-dark fw-bold'>CONTATC INFORMATION</h5>
+                    <h5 className='text-dark fw-bold'>CONTAct INFORMATION</h5>
                     <div className="d-flex gap-3">
                         <a href="#" className="text-success fs-5"><FaFacebookF /></a>
                         <a href="#" className="text-success fs-5"><FaTwitter /></a>
@@ -40,7 +40,7 @@ const Footer = () => {
 
             </div>
             <div className="text-center text-muted mt-4">
-                <small>&copy; {new Date().getFullYear()} SHOP MTAANI. Handcrafted by Eshihanda.</small>
+                <small className='fw-bold'> &copy; {new Date().getFullYear()} SHOP MTAANI. Handcrafted by Eshihanda.</small>
             </div>
         </div>
     </footer>
